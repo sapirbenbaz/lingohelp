@@ -1,0 +1,59 @@
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    font-family: "Roboto", serif;
+    font-variation-settings: "wdth" 100;
+  }
+  
+  .words-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 16px; 
+  }
+  
+  .words-table th,
+  .words-table td {
+    border: 1px solid #121212;
+    padding: 12px 16px;
+  }
+  
+  .words-table th {
+    background-color: #121212;
+    font-weight: bold;
+    text-align: center; 
+  }
+  
+  .actions-column {
+    text-align: center;
+  }
+  
+  .words-table tr:nth-child(even) {
+    background-color: #121212;
+  }
+
+  .words-table .action-buttons {
+    display: inline;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .words-table .action-buttons button {
+    padding: 6px 12px; 
+    font-size: 14px; 
+    border: none;
+    border-radius: 4px;
+    background-color: #6c757d;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .words-table .action-buttons button:hover {
+    background-color: #5a6268;
+  }
+  
+  .words-table .action-buttons button:active {
+    background-color: #4e555b;
+  }
+  
